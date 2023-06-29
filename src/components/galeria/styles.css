@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.foto1 {
+    background-image: url(https://t2.tudocdn.net/614415?w=646&h=284);
+}
+
+.foto2 {
+    background-image: url(https://www.clubmotor.com.br/wp-content/uploads/2022/07/moto-filme-batman.jpg);
+}
+
+.foto3 {
+    background-image: url(https://universoheroico.com.br/wp-content/uploads/2022/01/Imagem-do-filme-The-Batman-com-Robert-Pattinson.jpg);
+}
+
+.foto4 {
+    background-image: url(https://cdn.ome.lt/lEo82fw-tiKTVAIWNP9zJMg7iB8=/970x360/smart/uploads/conteudo/fotos/batminha.png);
+}
+
+.foto5 {
+    background-image: url(https://istoe.com.br/wp-content/uploads/2022/03/36.jpg);
+}
+
+.foto6 {
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/03/batman-5.jpg);
+}
+
+.foto7 {
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/02/batman-charada-dc.jpg);
+}
+
+.foto8 {
+    background-image: url(https://www.cinemaescrito.com/wp-content/uploads/2022/03/the-batman-scaled.jpg);
+}
+
+.foto9 {
+    background-image: url(http://radiomixfm.com.br/wp-content/uploads/2022/01/Novo-video-de-The-Batman-revela-o-vilao-Charada.png);
+}
+
+.foto10 {
+    background-image: url(https://scc10.com.br/wp-content/uploads/2022/04/Qual-a-relacao-entre-Alfred-e-Bruce-em-O-Batman-capa.jpeg);
+}
+
+.foto11 {
+    background-image: url(https://images.universohq.com/2022/03/BatmanFoto02.jpg);
+}
+
+.foto12 {
+    background-image: url(https://i.ytimg.com/vi/rsQEor4y2hg/maxresdefault.jpg);
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.title-photos {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+@media(max-width: 768px){
+    .cards {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+}
