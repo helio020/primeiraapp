@@ -7,7 +7,7 @@ function Header(){
 
     return(
         <header>
-            <img id='logo' src={Logo} />
+            <img id='logo' src={Logo} alt="logo" />
             <nav>
                 <ul>
                     <Link style={{ textDecoration: 'none' }} to='/'>

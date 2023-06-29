@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer(){
     return(
         <footer>
-            <img style={{ objectFit: 'contain' }} id="logo" src={Logo} />
+            <img style={{ objectFit: 'contain' }} id="logo" src={Logo} alt="logo"/>
             <span>Todos os direitos reservados ©</span>
             <span>Desenvolvido por: Hélio Ribeiro</span>
 
