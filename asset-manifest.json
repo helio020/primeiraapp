@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/primeiraapp/static/css/main.3e88fa29.css",
+    "main.js": "/primeiraapp/static/js/main.0f8549b8.js",
+    "static/media/video.mp4": "/primeiraapp/static/media/video.5235a07b1c2c2d15cf3d.mp4",
+    "static/media/star.svg": "/primeiraapp/static/media/star.9da128452921a3e6d0a9dc2ecc7ea190.svg",
+    "index.html": "/primeiraapp/index.html",
+    "main.3e88fa29.css.map": "/primeiraapp/static/css/main.3e88fa29.css.map",
+    "main.0f8549b8.js.map": "/primeiraapp/static/js/main.0f8549b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e88fa29.css",
+    "static/js/main.0f8549b8.js"
+  ]
+}
